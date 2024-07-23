@@ -3,7 +3,7 @@ class Wallet:
         self.balance = balance
 
     def add_balance(self, val):
-        self.balance = self.balance + val
+        self.balance = self.balance - val
 
     def get_balance(self):
         return self.balance
